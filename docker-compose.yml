@@ -1,7 +1,7 @@
 services:
   nodebb:
     build: .
-    image: sanctuaryv/class-7:latest
+    # image: sanctuaryv/class-7:latest
     restart: unless-stopped
     ports:
       - '4567:4567' # comment this out if you don't want to expose NodeBB to the host, or change the first number to any port you want
